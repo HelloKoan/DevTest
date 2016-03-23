@@ -3,14 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using MVC_Test.ViewModels;
+using ControllerBase = MVC_Test.Controllers.BaseController.ControllerBase;
 
 namespace MVC_Test.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : ControllerBase
     {
         public ActionResult Index()
         {
+            AddInfoAlert("Hello");
+
             return View();
+
         }
 
         public ActionResult About()
@@ -25,6 +30,13 @@ namespace MVC_Test.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        [HttpGet]
+        public ActionResult Hello()
+        {
+            var model = new HelloViewModel();
+            return View(model);
         }
     }
 }
