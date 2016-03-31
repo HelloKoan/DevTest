@@ -1,19 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using MVC_Test.ViewModels;
-using ControllerBase = MVC_Test.Controllers.BaseController.ControllerBase;
 
 namespace MVC_Test.Controllers
 {
-    public class HomeController : ControllerBase
+    public class HomeController : Controller
     {
         public ActionResult Index()
         {
             AddInfoAlert("Hello");
-
             return View();
 
         }

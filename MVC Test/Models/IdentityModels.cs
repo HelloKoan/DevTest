@@ -16,6 +16,11 @@ namespace MVC_Test.Models
             // Add custom user claims here
             return userIdentity;
         }
+
+        // User Properties
+        public Status Status { get; set; }
+        public int Age { get; set; }
+
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>

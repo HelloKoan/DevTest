@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using MVC_Test.Classes;
+using MVC_Test.Classes.Extensions;
 
 namespace MVC_Test.Controllers.BaseController
 {
-    public class ControllerBase : Controller
+    public class MyControllerBase : Controller
     {
 
         protected void AddAlert(Alert alert)
