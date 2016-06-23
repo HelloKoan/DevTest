@@ -14,7 +14,7 @@ You may wish to also edit the ignore file so that unnecessary code that does not
 At the end of the test commit your branch locally for review
 
 
-###Fizz Buzz Test - Suggested time : 10 minutes
+###Fizz Buzz Test - Suggested time : 5 minutes
 ***
 
 Task : Write an app which will print the numbers from 1 to 100. Complete as many of these as possible
@@ -25,7 +25,7 @@ Task : Write an app which will print the numbers from 1 to 100. Complete as many
 * Calculate and display the total execution time in seconds for the program executing
 
 
-###Luhn Test
+###Luhn Test - Suggested time : 15 minutes
 ***
 The Luhn test is used by some credit card companies to distinguish valid credit card numbers from what could be a random selection of digits.
 
