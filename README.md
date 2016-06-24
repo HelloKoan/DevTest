@@ -33,7 +33,7 @@ Those companies using credit card numbers that can be validated by the Luhn test
 * Reverse the order of the digits in the number.
 * Take the first, third, ... and every other odd digit in the reversed digits and sum them to form the partial sum s1
 * Taking the second, fourth ... and every other even digit in the reversed digits:
-* Multiply each digit by two. Sum the digits if the answer is greater than nine to form partial sums for the even digits
+* Multiply each digit by two. Sum the digits if the answer to any one number is greater than nine to form partial sums for the even digits.
 * Sum the partial sums of the even digits to form s2
 * If s1 + s2 ends in zero then the original number is in the form of a valid credit card number as verified by the Luhn test.
 
